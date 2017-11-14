@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const path = require('path');
 const urlencode = require('urlencode');
-var messengerButton = "<html><head><title>Facebook Messenger Bot</title></head><body><h1>Facebook Messenger Bot</h1>GGGGGGGGGGGGGGGGG<a href=\"https://developers.facebook.com/docs/messenger-platform/guides/quick-start\">docs</a>.<script src=\"https://button.glitch.me/button.js\" data-style=\"glitch\"></script><div class=\"glitchButton\" style=\"position:fixed;top:20px;right:20px;\"></div></body></html>";
+var messengerButton = "<html><head><title>Facebook Messenger Bot</title></head><body><h1>Facebook Messenger Bot</h1>已完成機器人佈署！ design by <a href="https://www.facebook.com/jing.pan.5">JingPan</a>.<br><br><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjing.pan.5%2Fposts%2F1710206618990813&width=500&show_text=true&appId=515825845433689&height=671" width="500" height="671" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></body></html>";
 
 // The rest of the code implements the routes for our Express server.
 let app = express();
