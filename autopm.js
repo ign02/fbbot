@@ -18,7 +18,7 @@ let PM_text = process.env.PM_text;
 //固定抓某篇文章的ID (粉絲團ID+PostID)
 let postid="1606860146241255_1712861062350306";
 //粉絲團ID
-let fansPageid="1606860146241255";
+let fansPageid=process.env.fansPageid;
 //1498004173835997   mr4.lab
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
